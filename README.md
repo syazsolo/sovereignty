@@ -8,7 +8,7 @@ Sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Th
 
 `The Prisoner's Dilemma` is a fascinating problem (or a game) that emerges from `Game Theory 🎮`
 
-This _repo is an effort to allow everyone to quickly setup their player & play this game
+This _repo is an effort to allow everyone to quickly setup their `_player(s)` & play this game
 
 Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
@@ -46,4 +46,4 @@ You can join in by sending me a PR (or a pull request) of your `_player(s)`. If 
 Every player must have a `_username : string` and an `_identity : emoji`.
 
 ### Current `_players`:
-- Skywalker 🔦
+1. Skywalker 🔦
