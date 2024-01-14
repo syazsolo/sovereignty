@@ -26,7 +26,7 @@ The `_programmer` has plenty of time to refine their `_player` until the fight d
 
 The Leaderboard 🏆 will be updated after every fight ⚔️
 
-The top 10 `_players` will be honoured in the `README` of Sovereignty_👑 
+The top 10 `_players` will be honoured in the `README` of Sovereignty_👑 for the whole week
 
 ## `_players`
 
