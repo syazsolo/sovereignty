@@ -1,24 +1,31 @@
-# Sovereignty_👑
+# Sovereignty_ 👑
 
-A programming game emulating `The Prisoner's Dilemma` of `Game Theory 🎮`
+Sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
 
 ## `The Prisoner's Dilemma`
 
-It is a famous problem from the science of `Game Theory 🎮`. Here is [Veritasium](https://www.youtube.com/watch?v=mScpHTIi-kM) to explain.
+`Game Theory 🎮` is a branch of science that deals with strategies
+
+`The Prisoner's Dilemma` is a fascinating problem (or a game) that emerges from `Game Theory 🎮`
+
+This _repo is an effort to allow everyone to quickly setup their player & play this game
+
+Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 ## _definitions:
 
-- `_programmer` : the human who is playing Sovereignty_👑 
-- `_player` : the code-counterpart of the `_programmer`. `_this` is what the `_programmer` throws in the colosseum ⚔️
-- `_rules` : `_players` obey the `_rules`
+- `_player` : the entity that decides to cooperate or defect
+    - `_player<human>` : defined by `_programmers` 
+    - `_player<droid>` : defined by famous strategies from `Game Theory 🎮`
+- `_programmer` : a human who defines `_player(s)<human>`
+- `_rules` : rules obeyed by all the `_players`
 
-## The rules of Sovereignty_👑 
+## Sovereignty_ 
 
-As Dota has Ice Frog, Sovereignty_👑 has me
 
-the `_players` will be thrown to the colosseum ⚔️ only once a week
+the `_players` will be thrown to the colosseum ⚔️ only once per week
 
-The `_programmer` has plenty of time to refine their `_player` until the fight day
+The `_programmer` has a whole week to refine their `_player`
 
 `_rules` evolve based on everyone's creativity. I invite discussions & PRs. However, the final decision is on me.
 
@@ -26,15 +33,17 @@ The `_programmer` has plenty of time to refine their `_player` until the fight d
 
 The Leaderboard 🏆 will be updated after every fight ⚔️
 
-The top 10 `_players` will be honoured in the `README` of Sovereignty_👑 for the whole week
+The top 10 `_players` will be crowned 👑 in the `README` of Sovereignty_ for the whole week
+
+## current `_rules`
 
 ## `_players`
 
-Everyone is invited to join the fight ⚔️
+Everyone is invited to the colosseum ⚔️
 
-You do that by sending me a PR (Pull Request) of your `_player`. As long as it only affects your `_player`, I will merge in straight away.
+You can join in by sending me a PR (or a pull request) of your `_player(s)`. If the changes only affect what is yours, I will merge in straight away.
 
-Everyone is welcomed, even kids. There should be enough guidelines on how to play.
+Every player must have a `_username : string` and an `_identity : emoji`.
 
 ### Current `_players`:
 - Skywalker 🔦
