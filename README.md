@@ -1,38 +1,40 @@
-# create-svelte
+# Sovereignty_👑
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A programming game emulating `The Prisoner's Dilemma` of `Game Theory 🎮`
 
-## Creating a project
+## `The Prisoner's Dilemma`
 
-If you're seeing this, you've probably already done this step. Congrats!
+It is a famous problem from the science of `Game Theory 🎮`. Here is [Veritasium](https://www.youtube.com/watch?v=mScpHTIi-kM) to explain.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## _definitions:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- `_programmer` : the human who is playing Sovereignty_👑 
+- `_player` : the code-counterpart of the `_programmer`. `_this` is what the `_programmer` throws in the colosseum ⚔️
+- `_rules` : `_players` obey the `_rules`
 
-## Developing
+## The rules of Sovereignty_👑 
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+As Dota has Ice Frog, Sovereignty_👑 has me
 
-```bash
-npm run dev
+the `_players` will be thrown to the colosseum ⚔️ only once a week
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+The `_programmer` has plenty of time to refine their `_player` until the fight day
 
-## Building
+`_rules` evolve based on everyone's creativity. I invite discussions & PRs. However, the final decision is on me.
 
-To create a production version of your app:
+## The Leaderboard 🏆
 
-```bash
-npm run build
-```
+The Leaderboard 🏆 will be updated after every fight ⚔️
 
-You can preview the production build with `npm run preview`.
+The top 10 `_players` will be honoured in the `README` of Sovereignty_👑 
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## `_players`
+
+Everyone is invited to join the fight ⚔️
+
+You do that by sending me a PR (Pull Request) of your `_player`. As long as it only affects your `_player`, I will merge in straight away.
+
+Everyone is welcomed, even kids. There should be enough guidelines on how to play.
+
+### Current `_players`:
+- Skywalker 
