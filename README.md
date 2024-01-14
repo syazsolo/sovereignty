@@ -37,4 +37,4 @@ You do that by sending me a PR (Pull Request) of your `_player`. As long as it o
 Everyone is welcomed, even kids. There should be enough guidelines on how to play.
 
 ### Current `_players`:
-- Skywalker 
+- Skywalker 🔦
