@@ -1,4 +1,4 @@
-# sovereignty_
+# sovereignty_ [under dev]
 
 sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
 
@@ -6,9 +6,9 @@ sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Th
 
 `Game Theory 🎮` is a branch of science that deals with strategies in a random environment
 
-`The Prisoner's Dilemma` is a fascinating problem (its actually a game) that emerges from `Game Theory 🎮`
+`The Prisoner's Dilemma` is a fascinating problem (its an actual game) that emerges from `Game Theory 🎮`
 
-sovereignty_ is for everyone to quickly setup a player & play this game. You will find plenty of help in this repo, I will make sure of it.
+sovereignty_ is for everyone to quickly setup a player & play this game. You will find plenty of help in this repo. I will make sure of it.
 
 Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
