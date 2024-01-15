@@ -1,49 +1,41 @@
-# Sovereignty_ 👑
+# sovereignty_
 
-Sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
+sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
 
 ## `The Prisoner's Dilemma`
 
-`Game Theory 🎮` is a branch of science that deals with strategies
+`Game Theory 🎮` is a branch of science that deals with strategies in a random environment
 
-`The Prisoner's Dilemma` is a fascinating problem (or a game) that emerges from `Game Theory 🎮`
+`The Prisoner's Dilemma` is a fascinating problem (its actually a game) that emerges from `Game Theory 🎮`
 
-This _repo is an effort to allow everyone to quickly setup their player & play this game
+sovereignty_ is for everyone to quickly setup their player & play this game. You will find plenty of help in this repo, I will make sure of it.
 
 Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 ## _definitions:
 
-- `_player` : the entity that decides to cooperate or defect
+- `_player` : the gladiator in the colosseum
     - `_player<human>` : defined by `_programmers` 
     - `_player<droid>` : defined by famous strategies from `Game Theory 🎮`
-- `_programmer` : a human who defines `_player(s)<human>`
-- `_rules` : rules obeyed by all the `_players`
+- `_rules` : rules every gladiator must obey
 
-## Sovereignty_ 
+## sovereignty_ 
 
+The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone. 
 
-the `_players` will be thrown to the colosseum ⚔️ only once per week
-
-The `_programmer` has a whole week to refine their `_player`
+You can pull the PR anytime to build the best `_player` to beat everybody, but a good gladiator knows to hide their design. The good gladiator knows to prepare for the future instead of current.
 
 `_rules` evolve based on everyone's creativity. I invite discussions & PRs. However, the final decision is on me.
 
-## The Leaderboard 🏆
+## The Ferocious Bout 👑
 
-The Leaderboard 🏆 will be updated after every fight ⚔️
-
-The top 10 `_players` will be crowned 👑 in the `README` of Sovereignty_ for the whole week
+The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_players` will be hailed in the `README` of sovereignty_ 👑 for the whole week.
 
 ## current `_rules`
 
 ## `_players`
 
-Everyone is invited to the colosseum ⚔️
-
-You can join in by sending me a PR (or a pull request) of your `_player(s)`. If the changes only affect what is yours, I will merge in straight away.
-
-Every player must have a `_username : string` and an `_identity : emoji`.
+Every `_player` must have a `username` and an `identity : emoji`.
 
 ### Current `_players`:
 - Skywalker 🔦
