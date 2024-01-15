@@ -1,16 +1,16 @@
 import _ from 'lodash';
-import type { Player } from './player';
+import type { Strategy } from './strategy';
 import type { Rules } from './rules';
 
 export class Duel {
-    player1: Player;
-    player2: Player;
+    strategy1: Strategy;
+    strategy2: Strategy;
     rules: Rules;
 
-    constructor(player1: Player, player2: Player, rules: Rules) {
+    constructor(strategy1: Strategy, strategy2: Strategy, rules: Rules) {
         // todo 🪄 can make this constructor shorter?
-        this.player1 = player1;
-        this.player2 = player2;
+        this.strategy1 = strategy1;
+        this.strategy2 = strategy2;
         this.rules = rules;
     };
 
@@ -18,8 +18,9 @@ export class Duel {
     //              battle              //
     //                                  //
 
-    coinToss(): Player {
-        return _.sample([this.player1, this.player2]);
+    // who starts?
+    coinToss(): Strategy {
+        return _.sample([this.strategy1, this.strategy2]);
     }
 
     inform(): void {

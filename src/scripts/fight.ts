@@ -1,6 +1,6 @@
 // TODO 🪄 why cannot use @lib?
-import { Player } from "../lib/player";
+import { Strategy } from "../lib/player";
 
-const player = new Player('Skywalker');
+const player = new Strategy('Skywalker');
 
 console.log(player)
