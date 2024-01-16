@@ -9,8 +9,8 @@ export class Colosseum {
 	// const players: Player[] = []
 
 	constructor(_players: string) {
-		const guide = _path('src', 'lib', 'lobby', _players)
-		let list = this.colosseumOpens(guide);
+		const shine = _path('src', 'lib', 'lobby', _players)
+		let list = this.colosseumOpens(shine);
 	}
 
 	private colosseumOpens(_players: string): string[] {
