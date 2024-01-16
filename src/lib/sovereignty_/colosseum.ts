@@ -9,8 +9,6 @@ export class Colosseum {
 	constructor(_players: string) {
 		const guide = _path('src', 'lib', 'lobby', _players)
 		let list = this.colosseumOpens(guide);
-
-		console.log(list)
 	}
 
 	private colosseumOpens(_players: string): string[] {
