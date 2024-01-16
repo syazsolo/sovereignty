@@ -1,6 +1,6 @@
-# sovereignty_ [under dev]
+# sovereignty\_ [under dev]
 
-sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
+sovereignty\_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
 
 ## `The Prisoner's Dilemma`
 
@@ -8,20 +8,20 @@ sovereignty_ is a programming game based on `The Prisoner's Dilemma` of `Game Th
 
 `The Prisoner's Dilemma` is a fascinating problem (its an actual game) that emerges from `Game Theory 🎮`
 
-sovereignty_ is for everyone to quickly setup a player & play this game. You will find plenty of help in this repo. I will make sure of it.
+sovereignty\_ is for everyone to quickly setup a player & play this game. You will find plenty of help in this repo. I will make sure of it.
 
 Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
-## _definitions:
+## \_definitions:
 
 - `_strategy` : the gladiator in the colosseum
-    - `_strategy<human>` : defined by `_programmers` 
-    - `_strategy<droid>` : defined by famous strategies from `Game Theory 🎮`
+  - `_strategy<human>` : defined by `_programmers`
+  - `_strategy<droid>` : defined by famous strategies from `Game Theory 🎮`
 - `_rules` : rules every gladiator must obey
 
-## sovereignty_ 
+## sovereignty\_
 
-The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone. 
+The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone.
 
 You can pull the PR anytime to build the best `_strategy` to beat everybody, but a good gladiator knows to hide their design. The good gladiator knows to prepare for the future instead of current.
 
@@ -29,11 +29,9 @@ You can pull the PR anytime to build the best `_strategy` to beat everybody, but
 
 ## The Ferocious Bout 👑
 
-The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_strategies` will be hailed in the `README` of sovereignty_ 👑 for the whole week.
+The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_strategies` will be hailed in the `README` of sovereignty\_ 👑 for the whole week.
 
 # how to start?
-
-
 
 ## current `_rules`
 
@@ -42,4 +40,5 @@ The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_st
 Every `_strategy` must have a `username` and an `identity : emoji`.
 
 ### Current `_strategies`:
+
 1. skywalker 🔦

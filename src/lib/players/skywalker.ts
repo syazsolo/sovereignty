@@ -1,5 +1,3 @@
-import { Player } from "$lib/sovereignty_/player";
+import { Player } from '$lib/sovereignty_/player';
 
-class skywalker extends Player {
-    
-} 
+class skywalker extends Player {}

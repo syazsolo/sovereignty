@@ -13,7 +13,7 @@
 		"test:unit": "vitest",
 		"lint": "prettier --check .",
 		"format": "prettier --write .",
-		"begin-game": "tsm ./src/scripts/start-game.ts"
+		"game": "tsm ./src/scripts/start-game.ts"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",

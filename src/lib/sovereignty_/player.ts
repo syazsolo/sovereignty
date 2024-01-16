@@ -1,25 +1,24 @@
 enum Move {
-    cooperate,
-    defect
+	cooperate,
+	defect
 }
 export class Player {
-    // 🪄
+	// 🪄
 
-    _myMoves?: Move[];
-    _oppositions?: Move[];
-    
-    _defectFirst?: boolean;
+	_myMoves?: Move[];
+	_oppositions?: Move[];
 
+	_defectFirst?: boolean;
 
-    // I will
-    defectFirst() {
-        this._defectFirst = true;
-        return new defectFirst;
-    }
+	// I will
+	defectFirst() {
+		this._defectFirst = true;
+		return new defectFirst();
+	}
 }
 
 export class defectFirst {
-    onLine(n: number) {
-        // 🪄
-    }
+	onLine(n: number) {
+		// 🪄
+	}
 }

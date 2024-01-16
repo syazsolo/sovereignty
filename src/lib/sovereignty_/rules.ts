@@ -1,3 +1,1 @@
-export class Rules {
-    
-}
+export class Rules {}
