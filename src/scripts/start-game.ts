@@ -1,5 +1,5 @@
-import { randomUtil } from '$lib';
-import { Colosseum } from '$lib/sovereignty_/colosseum.js';
+// todo 🪄 dont bypass $lib
+import { Colosseum } from './../lib/sovereignty_/colosseum';
 
 // Welcome to the Colosseum 🏟️
 
@@ -15,11 +15,7 @@ import { Colosseum } from '$lib/sovereignty_/colosseum.js';
 // 9
 // 10
 
-// Now, gather the new players 🧾
-// code_to_debug
+// Lets look at the brave souls joining the Ferocious Bout 👑 today 🧾
+const colosseum = new Colosseum("_enlist.yaml");
 
-randomUtil();
-
-// const colosseum = new Colosseum("enlist.yaml");
-
-// console.log(colosseum);
+console.log(colosseum);
