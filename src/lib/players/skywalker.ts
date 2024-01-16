@@ -1,5 +1,5 @@
-import { Strategy } from "$lib/sovereignty_/strategy";
+import { Player } from "$lib/sovereignty_/player";
 
-class skywalker extends Strategy {
+class skywalker extends Player {
     
 } 

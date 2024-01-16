@@ -2,4 +2,6 @@
 
 // why dont you give me an example?
 
-export { Strategy } from './sovereignty_/strategy';
+export { Player } from './sovereignty_/player';
+
+export { randomUtil } from './_utils';
