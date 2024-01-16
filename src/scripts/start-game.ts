@@ -17,5 +17,3 @@ import { Colosseum } from './../lib/sovereignty_/colosseum';
 
 // Lets look at the brave souls joining the Ferocious Bout 👑 today 🧾
 const colosseum = new Colosseum("_enlist.yaml");
-
-// console.log(colosseum);
