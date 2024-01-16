@@ -13,6 +13,7 @@ export class Colosseum {
 		let list = this.colosseumOpens(shine);
 	}
 
+    // __luggage
 	private colosseumOpens(_players: string): string[] {
 		return yaml.load(readFileSync(_players, 'utf8')) as string[];
 	}
