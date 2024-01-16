@@ -15,5 +15,5 @@ import { Colosseum } from './../lib/sovereignty_/colosseum';
 // 9
 // 10
 
-// This list shall be the pass. Lets know the names of these brave souls. 🧾
+// This list shall be the pass. Lets know the names of these young bloods 🧾
 const colosseum = new Colosseum("_enlist.yaml");
