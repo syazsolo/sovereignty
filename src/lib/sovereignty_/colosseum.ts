@@ -3,6 +3,8 @@ import { readFileSync } from 'fs';
 import path from 'path';
 import { _path } from './_utils';
 import type { Player } from './player';
+// __luggage
+
 export class Colosseum {
 	// const players: Player[] = []
 
