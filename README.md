@@ -14,16 +14,16 @@ Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com
 
 ## \_definitions:
 
-- `_strategy` : the gladiator in the colosseum
-  - `_strategy<human>` : defined by `_programmers`
-  - `_strategy<droid>` : defined by famous strategies from `Game Theory 🎮`
+- `_player` : the gladiator in the colosseum
+  - `_player<human>` : defined by `_programmers`
+  - `_player<droid>` : defined by famous strategies from `Game Theory 🎮`
 - `_rules` : rules every gladiator must obey
 
 ## sovereignty\_
 
 The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone.
 
-You can pull the PR anytime to build the best `_strategy` to beat everybody, but a good gladiator knows to hide their design. The good gladiator knows to prepare for the future instead of current.
+You can pull the PR anytime to build the best `_player` to beat everybody, but a good gladiator knows to hide their design. The good gladiator knows to prepare for the future instead of current.
 
 `_rules` evolve based on everyone's creativity. I invite discussions & PRs. However, the final decision is on me.
 
@@ -37,7 +37,7 @@ The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_st
 
 ## `_strategies`
 
-Every `_strategy` must have a `username` and an `identity : emoji`.
+Every `_player` must have a `username` and an `identity : emoji`.
 
 ### Current `_strategies`:
 

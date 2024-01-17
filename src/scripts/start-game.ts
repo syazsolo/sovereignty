@@ -15,5 +15,6 @@ import { Colosseum } from './../lib/sovereignty_/colosseum';
 // 9
 // 10
 
-// Lets look at the brave souls joining the Ferocious Bout 👑 today 🧾
+// Read the list 🧾 for whos joining the Bout today
 const colosseum = new Colosseum("_enlist.yaml");
+
