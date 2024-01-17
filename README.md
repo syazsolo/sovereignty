@@ -23,7 +23,7 @@ Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com
 
 The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone.
 
-You can pull the PR anytime to build the best `_player` to beat everybody, but a good gladiator knows to hide their design. The good gladiator knows to prepare for the future instead of current.
+You can pull the PR anytime to build the best `_player` to beat everybody, but a good gladiator knows to be patient. The good gladiator knows to prepare for the future.
 
 `_rules` evolve based on everyone's creativity. I invite discussions & PRs. However, the final decision is on me.
 
