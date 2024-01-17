@@ -33,16 +33,14 @@ The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_st
 
 1. 
 2. 
-3. ..
+3. ...
 
 # how to start?
 
-## current `_rules`
+[under dev]
 
-## `_strategies`
+## `_players`
 
 Every `_player` must have a `username` and an `identity : emoji`.
 
-### Current `_strategies`:
-
-1. skywalker 🔦
+eg: skywalker 🔦 . this username is taken.
