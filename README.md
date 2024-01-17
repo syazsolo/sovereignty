@@ -31,6 +31,10 @@ You can pull the PR anytime to build the best `_player` to beat everybody, but a
 
 The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_strategies` will be hailed in the `README` of sovereignty\_ 👑 for the whole week.
 
+1. 
+2. 
+3. ..
+
 # how to start?
 
 ## current `_rules`
