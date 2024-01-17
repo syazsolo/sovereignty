@@ -43,4 +43,4 @@ The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_pl
 
 Every `_player` must have a `username` and an `identity : emoji`.
 
-eg: skywalker 🔦 . this username is taken.
+eg: skywalker 🔦 . first username in history.
