@@ -3,7 +3,7 @@ import { Colosseum } from './../lib/sovereignty_/colosseum';
 
 // Welcome to the Colosseum 🏟️
 
-// Here, we honour the past champions of the Ferocious Bout 👑
+// Before we begin, we remember the past champions of the Ferocious Bout 👑
 // 1
 // 2
 // 3
@@ -15,6 +15,5 @@ import { Colosseum } from './../lib/sovereignty_/colosseum';
 // 9
 // 10
 
-// Read the list 🧾 for whos joining the Bout today
+// The list above shall be the pass! Let us know the names of the younger blood 🧾
 const colosseum = new Colosseum("_enlist.yaml");
-
