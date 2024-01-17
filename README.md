@@ -25,7 +25,7 @@ The colosseum only holds the Ferocious Bout 👑 periodically. The date will be 
 
 You can pull the PR anytime to build the best `_player` to beat everybody, but a good gladiator knows to be patient. The good gladiator knows to prepare for the future.
 
-`_rules` evolve based on everyone's creativity. I invite discussions & PRs. But the final decision, is on me.
+`_rules` evolve based on everyone's creativity. I invite discussions & PRs. However, final decision is on me.
 
 ## The Ferocious Bout 👑
 
