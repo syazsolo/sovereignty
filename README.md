@@ -1,4 +1,4 @@
-# sovereignty\_ [under dev]
+# sovereignty\_ (under dev)
 
 sovereignty\_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
 
@@ -8,28 +8,28 @@ sovereignty\_ is a programming game based on `The Prisoner's Dilemma` of `Game T
 
 `The Prisoner's Dilemma` is a fascinating problem (actually its a literal game) that emerges from `Game Theory 🎮`
 
-sovereignty\_ is for everyone to quickly setup a player & play this game. You will find plenty of help in this repo. I will make sure of it.
+sovereignty\_ is for everyone to quickly setup a player & play this game. You will find plenty of help in this repo.
 
 Here is Veritasium to explain [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 ## \_definitions:
 
-- `_player` : the gladiator in the colosseum
-  - `_player<human>` : defined by `_programmers`
-  - `_player<droid>` : defined by famous strategies from `Game Theory 🎮`
-- `_rules` : rules every gladiator must obey
+- `player` : the gladiator in the colosseum
+  - `player<human>` : defined by `programmers`
+  - `player<droid>` : defined by famous strategies from `Game Theory 🎮`
+- `rules` : rules every gladiator must obey
 
 ## sovereignty\_
 
 The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone.
 
-You can pull the PR anytime to build the best `_player` to beat everybody, but a good gladiator knows to be patient. The good gladiator knows to prepare for the future.
+You can pull the PR anytime to build the best `player` to beat everybody, but a good gladiator knows to be patient and to prepare for the future.
 
-`_rules` evolve based on everyone's creativity. I invite discussions & PRs. However, final decision is on me.
+`rules` evolve based on everyone's creativity. I invite discussions & PRs. However, final decision is on me.
 
 ## The Ferocious Bout 👑
 
-The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_players` will be hailed in the `README` of sovereignty\_ 👑 for the whole week.
+The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `players` will be hailed in the `README` of sovereignty\_ 👑 for the whole week.
 
 1. 
 2. 
@@ -37,10 +37,8 @@ The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `_pl
 
 # how to start?
 
-[under dev]
+under dev
 
-## `_players`
+## `players`
 
-Every `_player` must have a `username` and an `identity : emoji`. Eg:
-
-skywalker 🔦 
+Every `player` must have a `username` and an `identity : emoji`. Eg: skywalker 🔦 
