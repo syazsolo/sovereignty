@@ -1,7 +1,7 @@
-/** The wonder that is a human. Hiding plain ancienity behind simple modernity */
+/** To hide the ancient code from the humans */
 
 import path from "path";
 
-export function _path(...paths: string[]) {
+export function path_(...paths: string[]) {
     return path.join(process.cwd(), ...paths);
 }

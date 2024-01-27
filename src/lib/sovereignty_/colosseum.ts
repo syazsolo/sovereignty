@@ -1,25 +1,24 @@
 import yaml from 'js-yaml';
 import { readFileSync } from 'fs';
-import path from 'path';
-import { _path } from './_utils';
-import { Player } from './player';
-// __luggage
+import { path_ } from './_utils';
 
 export class Colosseum {
 	// const players: Player[] = []
 
 	constructor(playerList: string) {
-		const light_shines_on_the_players = _path('src', 'lib', 'lobby', playerList)
-		let usernames = this.colosseumOpens(light_shines_on_the_players);
+		const spotlight_on_players = path_('src', 'lib', 'lobby', playerList)
+		let usernames = this.colosseumOpens(spotlight_on_players);
 
-		const x = this.gatherThePlayers(usernames);
+		// under dev
+		this.gatherThePlayers(usernames);
 	}
 
 	private gatherThePlayers(usernames: string[]) {
 		for (const username of usernames) {
-			const y = _path('src', 'lib', 'lobby', '_players', username + '.ts')
-			const x = readFileSync(y, 'utf8')
-			console.log(x)
+			const a = path_('src', 'lib', 'lobby', '_players', username + '.ts');
+			const b = readFileSync(a, 'utf8');
+			
+			// under dev
 		}
 	}
 
