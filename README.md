@@ -1,4 +1,5 @@
 # sovereignty\_ (under dev)
+# todo clean this
 
 sovereignty\_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
 
@@ -41,4 +42,4 @@ under dev
 
 ## `players`
 
-Every `player` must have a `username` and an `identity : emoji`. Eg: skywalker 🔦 
+Every `player` must have a `username` and an `identity : emoji` -- skywalker 🔦 
