@@ -1,4 +1,4 @@
-# sovereignty\_ (under dev)
+# sovereignty\_
 
 :todo clean this
 
