@@ -1,6 +1,6 @@
 # sovereignty\_
 
-:todo clean this
+// todo clean this
 
 sovereignty\_ is a programming game based on `The Prisoner's Dilemma` of `Game Theory 🎮`
 
