@@ -8,9 +8,9 @@ sovereignty\_ is a programming game made to play `The Prisoner's Dilemma` of `Ga
 
 `Game Theory 🎮` is a branch of science that deals with strategies in a random environment
 
-From Game Theory, emerged `The Prisoner's Dilemma`, which is an actual game, that you can play, no matter how noob you are. even you can play this.
+From Game Theory, emerged `The Prisoner's Dilemma` which is an actual game that you can play.
 
-with sovereignty\_, you just follow what we say, and then you can play.
+With sovereignty\_, you just follow a few steps (extra care on the docs), and then you can play.
 
 I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
