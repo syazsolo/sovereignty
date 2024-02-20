@@ -16,7 +16,7 @@ I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https:
 
 ## Ferocious Bout
 
-Listen, Jabba insisted that its a good idea to announce the tournament before the game even existed. I told him it sounds woofy, Jabba didnt like it. And thats why Im here - the one to announce this, Jabba, so here you go, the Ferocious Bout:
+listen, jabba insisted that its a good idea to announce the tournament before the game even existed. I told him it sounds woofy, jabba didnt like it. thats why Im here - the one to announce this, so here you go, the ferocious bout:
 
 isten you cant announce 
 
