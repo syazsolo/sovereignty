@@ -14,11 +14,11 @@ With sovereignty\_, you just follow a few steps (extra care on the docs), and th
 
 I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
-## Ferocious Bout
+# Ferocious Bout
 
 listen, jabba insisted that its a good idea to announce the tournament before the game even existed. I told him it sounds woofy. jabba didnt like it. thats why Im here - the one to announce this, so here you go, the ferocious bout:
 
-isten you cant announce 
+## Scroll
 
 The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone.
 
