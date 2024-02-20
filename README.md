@@ -14,16 +14,11 @@ With sovereignty\_, you just follow a few steps (extra care on the docs), and th
 
 I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
-## \_definitions:
+## Ferocious Bout
 
-- `player` : the gladiator in the colosseum
-  - `player<human>` : defined by `programmers`
-  - `player<droid>` : defined by famous strategies from `Game Theory 🎮`
-- `rules` : rules every gladiator must obey
+Listen, Jabba insisted that its a good idea to announce the tournament before the game even exist. I told him it sounds woofy, Jabba didnt like it, so here it goes, the Ferocious Bout:
 
-## sovereignty\_
-
-Hey Jabba! 
+isten you cant announce 
 
 The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone.
 
