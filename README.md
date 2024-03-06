@@ -16,7 +16,10 @@ I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https:
 
 # Ferocious Bout 👑
 
-listen, jabba insisted that its a good idea to announce the tournament before the game even existed. I told him it sounds woofy. jabba didnt like it. thats why Im here - the one to announce this, so here you go, the Ferocious Bout 👑:
+google it. and to scrap all below, start over, its a good attitude.
+
+listen, jabba insisted that its a good idea to announce the tournament before the game even existed. I told him its woofy. jabba didnt like it. and Im here - the one Jabba wants to read this scroll,
+so here you go, ferocious bout:
 
 ## Scroll
 
