@@ -39,7 +39,7 @@ The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `pla
 
 # how to start?
 
-under development.
+under development
 
 ## `players`
 
