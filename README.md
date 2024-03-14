@@ -19,7 +19,7 @@ I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https:
 google it. and to scrap all below, start over, its a good attitude.
 
 listen, jabba insisted that its a good idea to announce the tournament before the game even existed. I told him ek woofy. jabba didnt like it. and Im here - the one Jabba wants to announce it,
-so here you go, heres the scroll
+so here you go, here is the scroll:
 
 ## 📜
 
