@@ -1,8 +1,8 @@
-# sovereignty\_
+# sovereignty
 
 // todo clean this
 
-sovereignty\_ is a programming game made to play `The Prisoner's Dilemma` of `Game Theory 🎮`
+sovereignty is a programming game made to play `The Prisoner's Dilemma` of `Game Theory 🎮`
 
 ## `The Prisoner's Dilemma`
 
@@ -10,7 +10,7 @@ sovereignty\_ is a programming game made to play `The Prisoner's Dilemma` of `Ga
 
 From `Game Theory 🎮`, emerged `The Prisoner's Dilemma`, which so happen is an actual game - that you can play.
 
-With sovereignty\_, you just follow a few steps (our fault if you cant follow), and then you can start playing.
+With sovereignty, you just follow a few steps (our fault if you cant follow), and then you can start playing.
 
 I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
@@ -31,7 +31,7 @@ You can pull the PR anytime to build the best `player` to beat everybody, but a 
 
 ## The Ferocious Bout 👑
 
-The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `players` will be hailed in the `README` of sovereignty\_ 👑 for the whole week.
+The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `players` will be hailed in the `README` of sovereignty 👑 for the whole week.
 
 1. 
 2. 
