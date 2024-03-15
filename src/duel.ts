@@ -1,11 +1,11 @@
 import { Decision, DuelResult, TurnReturns } from "./types";
 import { Player } from "./player";
 
-function duel(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
+export function duel(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
     let p1_points = 0;
     let p2_points = 0;
 
-    for (let i = 0; i < totalTurns; i++) {
+    for (let i = 1; i < totalTurns; i++) {
         const { p1Points, p2Points } = runTurn(player1, player2, i);
 
         p1_points += p1Points;
