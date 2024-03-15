@@ -1,10 +1,21 @@
-import { Decision, Player } from "./types";
+import { Decision, DuelReturns, Player } from "./types";
 // import { log } from "./utils";
 
-function duel(player1: Player, player2: Player, totalTurns: number = 50) {
+function duel(player1: Player, player2: Player, totalTurns: number = 50): DuelReturns {
     runTurn(player1, player2, 1);
     runTurn(player1, player2, 2);
     runTurn(player1, player2, 3);
+
+    return {
+        playerPoint1: {
+            player: player1,
+            points: 0
+        },
+        playerPoint2: {
+            player: player1,
+            points: 0
+        }
+    }
 }
 
 function runTurn(player1: Player, player2: Player, turn: number) {
