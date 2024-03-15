@@ -1,7 +1,7 @@
-import { Decision, TurnReturns } from "./types";
+import { Decision, DuelResult, TurnReturns } from "./types";
 import { Player } from "./player";
 
-function duel(player1: Player, player2: Player, totalTurns: number = 50) {
+function duel(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
     let p1_points = 0;
     let p2_points = 0;
 
@@ -12,8 +12,9 @@ function duel(player1: Player, player2: Player, totalTurns: number = 50) {
         p2_points += p2Points;
     }
 
-    console.log(p1_points, 'Player 1 Point')
-    console.log(p2_points, 'Player 2 Point')
+    const winner = player1.name;
+
+    return { winner, player1, player2 }
 }
 
 function runTurn(player1: Player, player2: Player, turn: number): TurnReturns {

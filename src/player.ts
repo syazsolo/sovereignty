@@ -4,6 +4,8 @@ export class Player {
     #currentTurn: number;
     // #receives: Decision[];
 
+    name: string = '';
+
     receives(decision: Decision): void { }
 
     decide(turn: number): Decision {
