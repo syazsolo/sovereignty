@@ -24,7 +24,7 @@ function runTurn(player1: Player, player2: Player, turn: number) {
 
     // pass decision
 
-    // count points
+    // give points to both players
 }
 
 function inform(player: Player, decision: Decision) {

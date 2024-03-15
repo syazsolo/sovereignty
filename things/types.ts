@@ -1,11 +1,9 @@
-export type Player = {
-    decide: (turn: number) => Decision,
-}
+import { Player } from "./player";
 
 export type Decision = any;
 
 export type PlayerPoint = {
-    player: Player
+    player: Player,
     points: number
 }
 
