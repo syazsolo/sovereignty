@@ -1,13 +1,6 @@
-import { Player } from "./player";
+export type Decision = 'cooperate' | 'defect';
 
-export type Decision = any;
-
-export type PlayerPoint = {
-    player: Player,
-    points: number
-}
-
-export type DuelReturns = {
-    playerPoint1: PlayerPoint,
-    playerPoint2: PlayerPoint
+export type TurnReturns = {
+    p1Points: number,
+    p2Points: number
 }

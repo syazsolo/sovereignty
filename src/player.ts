@@ -2,20 +2,21 @@ import { Decision } from './types';
 
 export class Player {
     #currentTurn: number;
+    // #receives: Decision[];
 
-    receives(decision: Decision): void {
+    receives(decision: Decision): void { }
 
-    }
-    
     decide(turn: number): Decision {
-        if (!this.#correctTurn(turn)) {
+        if (!this.#isCorrectTurn(turn)) {
             throw Error();
         }
 
-        return null;
+        return 'cooperate';
     }
 
-    #correctTurn(turn: number) {
+    rewardPoints(points: number): void {}
+
+    #isCorrectTurn(turn: number) {
         if (turn !== this.#currentTurn + 1) {
             return false;
         }
