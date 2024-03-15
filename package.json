@@ -1,0 +1,11 @@
+{
+  "name": "sovereignty",
+  "version": "1.0.0",
+  "description": "based on prisoner's dilemma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "syazani",
+  "license": "ISC"
+}
