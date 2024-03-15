@@ -11,3 +11,8 @@ export type DuelReturns = {
     playerPoint1: PlayerPoint,
     playerPoint2: PlayerPoint
 }
+
+export type Decisions = {
+    decision1: Decision,
+    decision2: Decision,
+}
