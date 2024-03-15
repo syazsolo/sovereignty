@@ -1,8 +1,8 @@
-# sovereignty\_
+# sovereignty
 
 // todo clean this
 
-sovereignty\_ is a programming game made to play `The Prisoner's Dilemma` of `Game Theory 🎮`
+sovereignty is a programming game made to play `The Prisoner's Dilemma` of `Game Theory 🎮`
 
 ## `The Prisoner's Dilemma`
 
@@ -10,15 +10,18 @@ sovereignty\_ is a programming game made to play `The Prisoner's Dilemma` of `Ga
 
 From `Game Theory 🎮`, emerged `The Prisoner's Dilemma`, which so happen is an actual game - that you can play.
 
-With sovereignty\_, you just follow a few steps (extra care on the docs), and then you can start playing.
+With sovereignty, you just follow a few steps (our fault if you cant follow), and then you can start playing.
 
 I suggest you listen to Veritasium, explaining [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 # Ferocious Bout 👑
 
-listen, jabba insisted that its a good idea to announce the tournament before the game even existed. I told him it sounds woofy. jabba didnt like it. thats why Im here - the one to announce this, so here you go, the Ferocious Bout 👑:
+google it. and to scrap all below, start over, its a good attitude.
 
-## Scroll
+listen, jabba insisted that its a good idea to announce the tournament before the game even existed. I told him ek woofy. jabba didnt like it. and Im here - the one Jabba wants to announce it,
+so here you go, here is the scroll:
+
+## 📜
 
 The colosseum only holds the Ferocious Bout 👑 periodically. The date will be well informed to everyone.
 
@@ -28,7 +31,7 @@ You can pull the PR anytime to build the best `player` to beat everybody, but a 
 
 ## The Ferocious Bout 👑
 
-The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `players` will be hailed in the `README` of sovereignty\_ 👑 for the whole week.
+The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `players` will be hailed in the `README` of sovereignty 👑 for the whole week.
 
 1. 
 2. 
@@ -36,7 +39,7 @@ The Ferocious Bout 👑 will be the undisputable proof of might. The top 10 `pla
 
 # how to start?
 
-under dev
+under development
 
 ## `players`
 
