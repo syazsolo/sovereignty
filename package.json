@@ -4,11 +4,13 @@
   "description": "based on prisoner's dilemma",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "duel": "ts-node scripts/duel.ts"
   },
   "author": "syazani",
   "license": "ISC",
   "dependencies": {
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "yargs": "^17.7.2"
   }
 }
