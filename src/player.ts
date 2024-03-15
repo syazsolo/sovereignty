@@ -2,6 +2,10 @@ import { Decision } from './types';
 
 export class Player {
     #currentTurn: number;
+
+    receives(decision: Decision): void {
+
+    }
     
     decide(turn: number): Decision {
         if (!this.#correctTurn(turn)) {
