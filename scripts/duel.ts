@@ -1,9 +1,10 @@
-import { runDuel } from "../src/duel";
+import { Duel } from "../src/duel";
 import { Player } from "../src/player";
 
 const player1 = new Player('luke');
 const player2 = new Player('darth');
 
-const duel = runDuel(player1, player2);
+const duel = new Duel(player1, player2);
+const report = duel.run();
 
-console.log(duel)
+console.log(report)

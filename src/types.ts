@@ -7,7 +7,7 @@ export type TurnReturns = {
     p2Points: number
 }
 
-export type DuelResult = {
+export type DuelReport = {
     winner: string,
     totalTurns: number,
     player1: {
@@ -26,6 +26,10 @@ export class PlayerPoints {
 
     constructor(player: Player) {
         this.#player = player;
+    }
+
+    get player() {
+        return this.#player;
     }
 
     get points() {

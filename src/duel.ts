@@ -1,18 +1,20 @@
-import { Decision, DuelResult, PlayerPoints, TurnReturns } from "./types";
+import { Decision, DuelReport, PlayerPoints, TurnReturns } from "./types";
 import { Player } from "./player";
 
-class duel {
+export class Duel {
     #pp1: PlayerPoints;
     #pp2: PlayerPoints;
+    #totalTurns: number;
 
-    constructor(player1: Player, player2: Player) {
+    constructor(player1: Player, player2: Player, totalTurns: number = 50) {
         this.#pp1 = new PlayerPoints(player1);
         this.#pp2 = new PlayerPoints(player2);
+        this.#totalTurns = totalTurns;
     }
 
-    runDuel(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
-        for (let i = 1; i < totalTurns; i++) {
-            const { p1Points, p2Points } = run_turn(player1, player2);
+    run(): DuelReport {
+        for (let i = 1; i < this.#totalTurns; i++) {
+            const { p1Points, p2Points } = run_turn(this.#pp1.player, this.#pp2.player);
 
             this.#pp1.rewardPoints(p1Points);
             this.#pp2.rewardPoints(p2Points);
@@ -26,46 +28,17 @@ class duel {
                 return '-';
             }
             if (p1_points > p2_points) {
-                return player1.name;
+                return this.#pp1.player.name;
             }
-            return player2.name
+            return this.#pp2.player.name
         })();
 
         return {
             winner,
-            totalTurns,
+            totalTurns: this.#totalTurns,
             player1: this.#pp1.report(),
             player2: this.#pp2.report()
         }
-    }
-}
-
-export function runDuel(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
-    let p1_points = 0;
-    let p2_points = 0;
-
-    for (let i = 1; i < totalTurns; i++) {
-        const { p1Points, p2Points } = run_turn(player1, player2);
-
-        p1_points += p1Points;
-        p2_points += p2Points;
-    }
-
-    const winner = (() => {
-        if (p1_points === p2_points) {
-            return '-';
-        }
-        if (p1_points > p2_points) {
-            return player1.name;
-        }
-        return player2.name
-    })();
-
-    return {
-        winner,
-        totalTurns,
-        player1: { player: player1, points: p1_points },
-        player2: { player: player2, points: p2_points }
     }
 }
 
