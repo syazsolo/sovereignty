@@ -9,6 +9,7 @@ export type TurnReturns = {
 
 export type DuelResult = {
     winner: string,
+    totalTurns: number,
     player1: {
         player: Player,
         points: number

@@ -1,12 +1,12 @@
 import { Decision, DuelResult, TurnReturns } from "./types";
 import { Player } from "./player";
 
-export function startDueling(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
+export function runDuel(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
     let p1_points = 0;
     let p2_points = 0;
 
     for (let i = 1; i < totalTurns; i++) {
-        const { p1Points, p2Points } = runTurn(player1, player2, i);
+        const { p1Points, p2Points } = run_turn(player1, player2);
 
         p1_points += p1Points;
         p2_points += p2Points;
@@ -24,32 +24,29 @@ export function startDueling(player1: Player, player2: Player, totalTurns: numbe
 
     return {
         winner,
+        totalTurns,
         player1: { player: player1, points: p1_points },
         player2: { player: player2, points: p2_points }
     }
 }
 
-function runTurn(player1: Player, player2: Player, turn: number): TurnReturns {
-    // make the decision
-    const p1_decision = player1.decide(turn);
-    const p2_decision = player2.decide(turn);
+function run_turn(player1: Player, player2: Player): TurnReturns {
+    // both players make the decision
+    const p1_decision = player1.decide();
+    const p2_decision = player2.decide();
 
-    // pass the decision
+    // both players receive the decision
     player1.receives(p2_decision);
     player2.receives(p1_decision);
 
     // calculate the points
-    const p1_points = calculatePoints(p1_decision, p2_decision);
-    const p2_points = calculatePoints(p2_decision, p1_decision);
-
-    // reward the points
-    player1.rewardPoints(p1_points);
-    player2.rewardPoints(p2_points);
+    const p1_points = calculate_points(p1_decision, p2_decision);
+    const p2_points = calculate_points(p2_decision, p1_decision);
 
     return { p1Points: p1_points, p2Points: p2_points }
 }
 
-function calculatePoints(gives: Decision, receives: Decision): number {
+function calculate_points(gives: Decision, receives: Decision): number {
     if (gives === 'defect') {
         if (receives === 'cooperate') {
             // most sugar

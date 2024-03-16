@@ -3,7 +3,6 @@ import { Decision } from './types';
 export class Player {
     name: string;
     #currentTurn: number = 1;
-    #points: number = 0;
 
     constructor(name: string) {
         this.name = name;
@@ -11,11 +10,9 @@ export class Player {
 
     receives(decision: Decision): void { }
 
-    decide(turn: number): Decision {
-        return 'cooperate';
-    }
+    decide(): Decision {
+        this.#currentTurn += 1;
 
-    rewardPoints(points: number): void {
-        this.#points += points;
+        return 'cooperate';
     }
 }
