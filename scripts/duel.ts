@@ -1,9 +1,9 @@
-import { duel as duel_ } from "../src/duel";
+import { startDueling } from "../src/duel";
 import { Player } from "../src/player";
 
-const player1 = new Player;
-const player2 = new Player;
+const player1 = new Player('luke');
+const player2 = new Player('darth');
 
-const duel = duel_(player1, player2);
+const duel = startDueling(player1, player2);
 
 console.log(duel)

@@ -1,7 +1,7 @@
 import { Decision, DuelResult, TurnReturns } from "./types";
 import { Player } from "./player";
 
-export function duel(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
+export function startDueling(player1: Player, player2: Player, totalTurns: number = 50): DuelResult {
     let p1_points = 0;
     let p2_points = 0;
 
@@ -12,9 +12,21 @@ export function duel(player1: Player, player2: Player, totalTurns: number = 50):
         p2_points += p2Points;
     }
 
-    const winner = player1.name;
+    const winner = (() => {
+        if (p1_points === p2_points) {
+            return '-';
+        }
+        if (p1_points > p2_points) {
+            return player1.name;
+        }
+        return player2.name
+    })();
 
-    return { winner, player1, player2 }
+    return {
+        winner,
+        player1: { player: player1, points: p1_points },
+        player2: { player: player2, points: p2_points }
+    }
 }
 
 function runTurn(player1: Player, player2: Player, turn: number): TurnReturns {

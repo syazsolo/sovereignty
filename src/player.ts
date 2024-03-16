@@ -1,29 +1,21 @@
 import { Decision } from './types';
 
 export class Player {
-    #currentTurn: number;
-    name: string = 'logos';
+    name: string;
+    #currentTurn: number = 1;
+    #points: number = 0;
 
-    constructor() {
-        this.#currentTurn = 1;
+    constructor(name: string) {
+        this.name = name;
     }
 
     receives(decision: Decision): void { }
 
     decide(turn: number): Decision {
-        if (!this.#isCorrectTurn(turn)) {
-            // throw Error();
-        }
-
         return 'cooperate';
     }
 
-    rewardPoints(points: number): void { }
-
-    #isCorrectTurn(turn: number) {
-        if (turn !== this.#currentTurn + 1) {
-            return false;
-        }
-        return true;
+    rewardPoints(points: number): void {
+        this.#points += points;
     }
 }
