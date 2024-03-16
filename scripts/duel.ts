@@ -5,6 +5,6 @@ const player1 = new Player('luke');
 const player2 = new Player('darth');
 
 const duel = new Duel(player1, player2);
-const report = duel.run();
+const report = duel.run(100);
 
 console.log(report)

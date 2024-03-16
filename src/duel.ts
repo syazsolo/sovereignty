@@ -4,16 +4,14 @@ import { Player } from "./player";
 export class Duel {
     #pp1: PlayerPoints;
     #pp2: PlayerPoints;
-    #totalTurns: number;
 
     constructor(player1: Player, player2: Player, totalTurns: number = 50) {
         this.#pp1 = new PlayerPoints(player1);
         this.#pp2 = new PlayerPoints(player2);
-        this.#totalTurns = totalTurns;
     }
 
-    run(): DuelReport {
-        for (let i = 1; i < this.#totalTurns; i++) {
+    run(totalTurns: number = 50): DuelReport {
+        for (let i = 1; i < totalTurns; i++) {
             const { p1Points, p2Points } = run_turn(this.#pp1.player, this.#pp2.player);
 
             this.#pp1.rewardPoints(p1Points);
@@ -35,7 +33,7 @@ export class Duel {
 
         return {
             winner,
-            totalTurns: this.#totalTurns,
+            totalTurns,
             player1: this.#pp1.report(),
             player2: this.#pp2.report()
         }
