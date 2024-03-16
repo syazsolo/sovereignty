@@ -3,7 +3,7 @@ import { Decision } from './types';
 export class Player {
     name: string;
     #decide: () => Decision;
-    #receives: Decision[] = [];
+    #track: Decision[] = [];
 
     constructor(name: string, decide: () => Decision) {
         this.name = name;
@@ -15,6 +15,6 @@ export class Player {
     };
 
     receives(decision: Decision): void {
-        this.#receives.push(decision);
+        this.#track.push(decision);
     }
 }
