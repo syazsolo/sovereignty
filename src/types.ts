@@ -19,3 +19,24 @@ export type DuelResult = {
         points: number
     }
 }
+
+export class PlayerPoints {
+    #player: Player;
+    #points: number = 0;
+
+    constructor(player: Player) {
+        this.#player = player;
+    }
+
+    get points() {
+        return this.#points;
+    }
+
+    rewardPoints(points: number) {
+        this.#points += points;
+    }
+
+    report() {
+        return { player: this.#player, points: this.#points };
+    }
+}
