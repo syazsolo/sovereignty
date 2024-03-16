@@ -11,8 +11,21 @@ export class Duel {
     }
 
     run(totalTurns: number = 50): DuelReport {
+        const player1 = this.#pp1.player;
+        const player2 = this.#pp2.player;
+
         for (let i = 1; i < totalTurns; i++) {
-            const { p1Points: p1_points, p2Points: p2_points } = this.#runTurn();
+            // both players make the decision
+            const p1_decision = player1.decide();
+            const p2_decision = player2.decide();
+
+            // both players receive the decision
+            player1.receives(p2_decision);
+            player2.receives(p1_decision);
+
+            // calculate the points
+            const p1_points = calculate_points(p1_decision, p2_decision);
+            const p2_points = calculate_points(p2_decision, p1_decision);
 
             this.#pp1.rewardPoints(p1_points);
             this.#pp2.rewardPoints(p2_points);
@@ -24,25 +37,6 @@ export class Duel {
             player1: this.#pp1.report(),
             player2: this.#pp2.report()
         }
-    }
-
-    #runTurn(): TurnReturns {
-        const player1 = this.#pp1.player;
-        const player2 = this.#pp2.player;
-
-        // both players make the decision
-        const p1_decision = player1.decide();
-        const p2_decision = player2.decide();
-    
-        // both players receive the decision
-        player1.receives(p2_decision);
-        player2.receives(p1_decision);
-    
-        // calculate the points
-        const p1_points = calculate_points(p1_decision, p2_decision);
-        const p2_points = calculate_points(p2_decision, p1_decision);
-    
-        return { p1Points: p1_points, p2Points: p2_points }
     }
 
     #winner() {

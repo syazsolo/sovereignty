@@ -1,6 +1,6 @@
 import { Decision } from './types';
 
-export class Player {
+export abstract class Player {
     name: string;
     #receives: Decision[] = [];
 
@@ -8,9 +8,7 @@ export class Player {
         this.name = name;
     }
 
-    decide(): Decision {
-        return 'cooperate';
-    }
+    abstract decide(): Decision;
 
     receives(decision: Decision): void {
         this.#receives.push(decision);
