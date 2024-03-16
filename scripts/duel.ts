@@ -1,5 +1,5 @@
-import { AlwaysCoop } from "../players/always-coop";
-import { Randomly } from "../players/random";
+import { Randomly } from "../players/bots/random";
+import { AlwaysCoop } from "../players/bots/always-coop";
 import { Duel } from "../src/duel";
 
 const player1 = new Randomly;
