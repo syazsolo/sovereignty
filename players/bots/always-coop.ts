@@ -1,12 +1,5 @@
 import { Player } from "../../src/player";
-import { Decision } from "../../src/types";
 
-export class AlwaysCoop extends Player {
-    constructor() {
-        super('always-coop')
-    }
-
-    decide(): Decision {
-        return 'cooperate';
-    }
-}
+export const always_coop = new Player('always-coop', () => {
+    return 'cooperate'
+})

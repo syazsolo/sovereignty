@@ -1,14 +1,18 @@
 import { Decision } from './types';
 
-export abstract class Player {
+export class Player {
     name: string;
+    #decide: () => Decision;
     #receives: Decision[] = [];
 
-    constructor(name: string) {
+    constructor(name: string, decide: () => Decision) {
         this.name = name;
+        this.#decide = decide;
     }
 
-    abstract decide(): Decision;
+    decide(): Decision {
+        return this.#decide();
+    };
 
     receives(decision: Decision): void {
         this.#receives.push(decision);
