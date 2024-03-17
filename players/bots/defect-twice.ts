@@ -1,8 +1,4 @@
 import { Player } from "../../src/player";
+import { Strategy } from "../../src/strategy";
 
-export const defects_twice = new Player('defects-twice', () => {
-    // if (utils.defectCount >= 2) {
-    //     return 'defect'
-    // }
-    return 'cooperate';
-})
+const defect_twice = new Player('defect-twice');

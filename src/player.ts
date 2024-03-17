@@ -1,20 +1,10 @@
-import { Decision } from './types';
+import { Strategy } from './strategy';
 
-export class Player {
+export class Player extends Strategy {
     name: string;
-    #decide: () => Decision;
-    #track: Decision[] = [];
 
-    constructor(name: string, decide: () => Decision) {
+    constructor(name: string) {
+        super();
         this.name = name;
-        this.#decide = decide;
-    }
-
-    decide(): Decision {
-        return this.#decide();
-    };
-
-    receives(decision: Decision): void {
-        this.#track.push(decision);
     }
 }

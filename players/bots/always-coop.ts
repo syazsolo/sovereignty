@@ -1,5 +1,3 @@
 import { Player } from "../../src/player";
 
-export const always_coop = new Player('always-coop', () => {
-    return 'cooperate'
-})
+export const always_coop = new Player('always-coop')
