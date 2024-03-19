@@ -8,8 +8,7 @@ export type TurnReturns = {
 }
 
 export type DuelReport = {
-    winner: string,
-    totalTurns: number,
+    turns: number,
     player1: {
         player: Player,
         points: number

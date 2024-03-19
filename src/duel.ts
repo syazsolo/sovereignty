@@ -10,11 +10,11 @@ export class Duel {
         this.#pp2 = new PlayerPoints(player2);
     }
 
-    run(totalTurns: number = 50): DuelReport {
+    run(turns: number = 100): DuelReport {
         const player1 = this.#pp1.player;
         const player2 = this.#pp2.player;
 
-        for (let i = 1; i < totalTurns; i++) {
+        for (let i = 1; i < turns; i++) {
             // both players make the decision
             const p1_decision = player1.decide();
             const p2_decision = player2.decide();
@@ -32,8 +32,7 @@ export class Duel {
         }
 
         return {
-            winner: this.#winner(),
-            totalTurns,
+            turns,
             player1: this.#pp1.report(),
             player2: this.#pp2.report()
         }
