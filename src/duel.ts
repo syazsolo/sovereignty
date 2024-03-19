@@ -1,4 +1,4 @@
-import { Decision, DuelReport, PlayerPoints, TurnReturns } from "./types";
+import { Decision, DuelReport, PlayerPoints } from "./types";
 import { Player } from "./player";
 
 export class Duel {
