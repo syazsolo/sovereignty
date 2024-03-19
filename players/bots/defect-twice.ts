@@ -1,4 +1,3 @@
-import { Player } from "../../src/player";
-import { Strategy } from "../../src/strategy";
+import { Player } from "../../src/Player";
 
 const defect_twice = new Player('defect-twice');

@@ -1,5 +1,6 @@
-import { Decision, DuelReport, PlayerPoints } from "./types";
-import { Player } from "./player";
+import { PlayerPoints } from "./PlayerPoints";
+import { Player } from "./Player";
+import { Decision, DuelReport } from "./types";
 
 export class Duel {
     #pp1: PlayerPoints;
@@ -27,8 +28,8 @@ export class Duel {
             const p1_points = calculate_points(p1_decision, p2_decision);
             const p2_points = calculate_points(p2_decision, p1_decision);
 
-            this.#pp1.rewardPoints(p1_points);
-            this.#pp2.rewardPoints(p2_points);
+            this.#pp1.reward(p1_points);
+            this.#pp2.reward(p2_points);
         }
 
         return {
@@ -37,36 +38,19 @@ export class Duel {
             player2: this.#pp2.report()
         }
     }
-
-    #winner() {
-        const p1_points = this.#pp1.points;
-        const p2_points = this.#pp2.points;
-
-        if (p1_points === p2_points) {
-            return '-';
-        }
-        if (p1_points > p2_points) {
-            return this.#pp1.player.name;
-        }
-        return this.#pp2.player.name
-    }
 }
 
 function calculate_points(gives: Decision, receives: Decision): number {
     if (gives === 'defect') {
         if (receives === 'cooperate') {
-            // most sugar
-            return 5;
+            return 5; // most sugar
         }
-        // at least get 1
-        return 1;
+        return 1; // at least get 1
     }
 
     if (receives === 'cooperate') {
-        // cooperation
-        return 3;
+        return 3; // cooperation
     }
 
-    // you get nothing
-    return 0;
+    return 0; // you get nothing
 }

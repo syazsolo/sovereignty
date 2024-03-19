@@ -1,4 +1,4 @@
-import { Player } from "./player";
+import { Player } from "./Player";
 
 export type Decision = 'cooperate' | 'defect';
 
@@ -19,27 +19,4 @@ export type DuelReport = {
     }
 }
 
-export class PlayerPoints {
-    #player: Player;
-    #points: number = 0;
-
-    constructor(player: Player) {
-        this.#player = player;
-    }
-
-    get player() {
-        return this.#player;
-    }
-
-    get points() {
-        return this.#points;
-    }
-
-    rewardPoints(points: number) {
-        this.#points += points;
-    }
-
-    report() {
-        return { player: this.#player, points: this.#points };
-    }
-}
+export type Decide = () => Decision;

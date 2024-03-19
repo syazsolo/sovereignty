@@ -1,4 +1,4 @@
-import { Strategy } from './strategy';
+import { Strategy } from './Strategy';
 
 export class Player extends Strategy {
     name: string;
