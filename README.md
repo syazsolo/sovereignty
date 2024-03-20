@@ -10,7 +10,7 @@ From `Game Theory 🎮`, emerged `The Prisoner's Dilemma`, which so happen is an
 
 With sovereignty, you just follow a few steps, and then you can start playing.
 
-Why not listen to Veritasium, the best at explaining [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
+Veritasium is best at explaining [`The Prisoner's Dilemma`](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 ## Status
 
