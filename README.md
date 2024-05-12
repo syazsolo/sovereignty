@@ -15,3 +15,14 @@ Veritasium is the best at explaining [`The Prisoner's Dilemma`](https://www.yout
 ## Status
 
 In development.
+
+# Tangible
+
+`player = {
+    // some definition
+    // will provide skeleton
+}`
+
+`play(player())`
+
+`// console logs some results`
