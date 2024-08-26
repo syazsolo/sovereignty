@@ -1,12 +1,12 @@
 # sovereignty
 
-sovereignty is a programming game made to play `The Prisoner's Dilemma` of `Game Theory 🎮`
+sovereignty is a programming game made to play `The Prisoner's Dilemma` of `Game Theory 🎮`.
 
 ## `The Prisoner's Dilemma`
 
-`Game Theory 🎮` is a branch of science that deals with dynamics in a social environments.
+`Game Theory 🎮` is a branch of science that deals with the dynamics in a social environments.
 
-From `Game Theory 🎮`, emerged `The Prisoner's Dilemma`, which so happen is an actual game, that hasn't been made yet. - that you can play.
+From `Game Theory 🎮`, emerged `The Prisoner's Dilemma`, which so happen is an actual game - that you can play, but hasn't been made yet.
 
 With sovereignty, you just follow a few steps, and you can start playing.
 
