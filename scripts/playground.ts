@@ -6,15 +6,11 @@
 
 // start of example
 
-import { AssymetricGame } from "../src/Game";
+import { Game } from "../src/Game";
 import { Decision } from "../src/types";
 
-const payoff_matrix_A = [[3, 0], [5, 1]];
-const payoff_matrix_B = [[3, 5], [0, 1]];
-
-const assymetric_game = new AssymetricGame(payoff_matrix_A, payoff_matrix_B);
-
-const score = assymetric_game.score(Decision.defect, Decision.defect);
+const game = new Game();
+const score = game.score(Decision.cooperate, Decision.defect);
 
 console.log(score);
 
