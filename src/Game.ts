@@ -29,9 +29,7 @@ export class AssymetricGame {
 
 export class Game extends AssymetricGame {
     constructor(matrix: number[][] = [[3, 0], [5, 1]]) {
-        const transposed = matrix.map((_, colIndex) =>
-            matrix.map(row => row[colIndex])
-        );
+        const transposed = matrix.map((_, colIndex) => matrix.map(row => row[colIndex]));
 
         super(matrix, transposed);
     }
