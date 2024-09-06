@@ -13,4 +13,19 @@ describe('Assymetric Game', () => {
         const score = assymetric_game.score(Decision.cooperate, Decision.cooperate);
         expect(score).toStrictEqual([4, 3]);
     });
+
+    test('Player A cooperates, Player B defects', () => {
+        const score = assymetric_game.score(Decision.cooperate, Decision.defect);
+        expect(score).toStrictEqual([1, 5]);
+    });
+
+    test('Player A defects, Player B cooperates', () => {
+        const score = assymetric_game.score(Decision.defect, Decision.cooperate);
+        expect(score).toStrictEqual([6, 0]);
+    });
+
+    test('Player A defects, Player B defects', () => {
+        const score = assymetric_game.score(Decision.defect, Decision.defect);
+        expect(score).toStrictEqual([2, 1]);
+    });
 });
