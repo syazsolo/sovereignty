@@ -1,10 +1,7 @@
-import { Strategy } from './Strategy';
-
-export class Player extends Strategy {
+export class Player {
     name: string;
 
     constructor(name: string) {
-        super();
         this.name = name;
     }
 }
