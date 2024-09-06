@@ -47,7 +47,6 @@ describe('Game (Symmetric Game)', () => {
 
     test('Player A cooperates, Player B defects', () => {
         const score = game.score(Decision.cooperate, Decision.defect);
-        console.log(score);
         expect(score).toStrictEqual([0, 5]);
     });
 
