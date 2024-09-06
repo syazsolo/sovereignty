@@ -1,10 +1,10 @@
-import { Decision, PayoffMatrix } from "./types";
+import { Decision } from "./types";
 
 export class AssymetricGame {
-    payoff_matrix_A: PayoffMatrix;
-    payoff_matrix_B: PayoffMatrix;
+    payoff_matrix_A: number[][];
+    payoff_matrix_B: number[][];
 
-    constructor(payoff_matrix_A: PayoffMatrix, payoff_matrix_B: PayoffMatrix) {
+    constructor(payoff_matrix_A: number[][], payoff_matrix_B: number[][]) {
         this.payoff_matrix_A = payoff_matrix_A;
         this.payoff_matrix_B = payoff_matrix_B;
     }
@@ -28,7 +28,11 @@ export class AssymetricGame {
 }
 
 export class Game extends AssymetricGame {
-    constructor(payoff_matrix_A: PayoffMatrix, payoff_matrix_B: PayoffMatrix) {
-        super(payoff_matrix_A, payoff_matrix_B);
+    constructor(matrix: number[][] = [[3, 0], [5, 1]]) {
+        const transposed = matrix.map((_, colIndex) =>
+            matrix.map(row => row[colIndex])
+        );
+
+        super(matrix, transposed);
     }
 }
