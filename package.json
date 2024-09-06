@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "duel": "ts-node scripts/duel.ts",
-    "test-run": "ts-node scripts/test-run.ts"
+    "playground": "ts-node scripts/playground.ts"
   },
   "author": "syazsolo",
   "license": "ISC",

@@ -1,6 +1,6 @@
 export enum Decision {
-    cooperate = 0,
-    defect = 1
+    cooperate,
+    defect
 }
 
-export type payoff_matrix = [[number, number], [number, number]];
+export type PayoffMatrix = [[number, number], [number, number]];
