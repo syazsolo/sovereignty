@@ -10,10 +10,8 @@
   },
   "author": "syazsolo",
   "license": "ISC",
-  "dependencies": {
-    "ts-node": "^10.9.2"
-  },
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "@jest/globals": "^29.7.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5"
