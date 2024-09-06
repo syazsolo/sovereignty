@@ -10,7 +10,9 @@
   "author": "syazsolo",
   "license": "ISC",
   "dependencies": {
-    "ts-node": "^10.9.2",
-    "yargs": "^17.7.2"
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
