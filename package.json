@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "duel": "ts-node scripts/duel.ts"
   },
-  "author": "syazani",
+  "author": "syazsolo",
   "license": "ISC",
   "dependencies": {
     "ts-node": "^10.9.2",
