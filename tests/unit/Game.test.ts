@@ -1,6 +1,6 @@
 import { describe, expect, test } from '@jest/globals';
-import { AssymetricGame, Game } from "../src/Game";
-import { Decision } from "../src/types";
+import { AssymetricGame, Game } from "../../src/Game";
+import { Decision } from "../../src/types";
 
 describe('Assymetric Game', () => {
     // WASIM - remove skip kat bawah ni, pastu buat bagi test pass
