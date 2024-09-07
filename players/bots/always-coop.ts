@@ -1,3 +1,8 @@
 import { Player } from "../../src/Player";
+import { Decision } from "../../src/types";
 
-export const always_coop = new Player('always-coop')
+export class always_coop implements Player {
+    strategy(): Decision {
+        return Decision.cooperate;
+    }
+}
