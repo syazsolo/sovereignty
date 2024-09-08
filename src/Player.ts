@@ -1,7 +1,7 @@
 import { Decision } from "./types";
 
 export abstract class Player {
-    abstract isBot: boolean
+    abstract isBot: boolean;
     abstract strategy(opponent: Player, round: number): Decision;
 }
 
