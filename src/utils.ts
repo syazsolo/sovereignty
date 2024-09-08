@@ -22,7 +22,6 @@ export async function loadPlayers(dir: string) {
         });
 
         const players = await Promise.all(promises);
-
         return players;
 
     } catch (error) {
