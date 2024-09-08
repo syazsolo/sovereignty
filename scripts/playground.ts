@@ -4,8 +4,6 @@
  * Feel free to replace the example with your code.
  */
 
-// start of the example
-
 import { Game } from "../src/Game";
 import { Decision } from "../src/types";
 
@@ -13,5 +11,3 @@ const game = new Game();
 const score = game.score(Decision.cooperate, Decision.defect);
 
 console.log(score);
-
-// end of the example
