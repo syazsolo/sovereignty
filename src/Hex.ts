@@ -20,4 +20,9 @@ export class Hex {
     hasPlayer() {
         return this._player !== undefined;
     }
+
+    static computePayoffMatrix(x: number) {
+        const base = [[3, 0], [5, 1]];
+        return base.map(b_out => b_out.map(b_in => b_in + x));
+    }
 }
