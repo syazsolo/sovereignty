@@ -1,20 +1,15 @@
-import { Hex } from "./Hex";
+import { Hex, HexCoordinate } from "./Hex";
 import { BotPlayer, HumanPlayer, Player } from "./Player";
 import { getRandomBetween } from "./utils";
-
-type HexCoordinate = {
-    q: number;
-    r: number;
-}
 
 export class Map {
     constructor(humans: HumanPlayer[], bots: BotPlayer[]) {
         const radius = Map.computeRadius(humans.length);
         const coordinates: HexCoordinate[] = Map.computeCoordinates(radius);
 
-        const human_hexes = Map.getHexes(humans, coordinates);
+        const human_coordinates = Map.assignHumanCoordinates(humans, coordinates);
 
-        console.log(human_hexes)
+        console.log(human_coordinates)
     }
 
     static computeRadius(humansCount: number) {
@@ -23,7 +18,8 @@ export class Map {
             throw new Error('Not yet')
         }
 
-        if (humansCount === 1) {
+        if (humansCount ===
+            1) {
             return 0;
         }
 
@@ -43,27 +39,23 @@ export class Map {
         return hexagons;
     }
 
-    static getHexes(humans: HumanPlayer[], options: HexCoordinate[]) {
+    static assignHumanCoordinates(humans: HumanPlayer[], options: HexCoordinate[]) {
         if (options.length < humans.length) {
             throw new Error("Not enough options for all humans.");
         }
 
         let available = [...options];
 
-        const hexes = humans.map((human) => {
+        const human_coordinates = humans.map((human) => {
             const random_index = Math.floor(Math.random() * available.length);
 
-            const hex = new Hex(
-                available[random_index].q,
-                available[random_index].r,
-                Hex.computePayoffMatrix(getRandomBetween(-1, 1))
-            );
+            const chosen = [available[random_index].q, available[random_index].r];
 
             available.splice(random_index, 1);
 
-            return hex;
+            return chosen;
         });
 
-        return hexes;
+        return human_coordinates;
     }
 }

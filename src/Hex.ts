@@ -1,5 +1,10 @@
 import { Player } from "./Player";
 
+export type HexCoordinate = {
+    q: number;
+    r: number;
+}
+
 export class Hex {
     private _q: number;
     private _r: number;
